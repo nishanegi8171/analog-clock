@@ -1,12 +1,12 @@
 'use strict';
-let clock =setInterval(() => {
- let d = new Date();
- let htime = d.getHours();
- let mtime = d.getMinutes();
- let stime = d.getSeconds();
- let hrotate=30*htime + mtime/2;
- let mrotate=6*mtime;
- let srotate=6*stime;
+setInterval(() => {
+    var d = new Date();
+    var htime = d.getHours();
+    var mtime = d.getMinutes();
+    var stime = d.getSeconds();
+    var hrotate=30*htime + mtime/2;
+    var mrotate=6*mtime;
+    var srotate=6*stime;
 
 hours.style.transform=`rotate(${hrotate}deg)`;
 minutes.style.transform=`rotate(${mrotate}deg)`;
