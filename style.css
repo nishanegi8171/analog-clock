@@ -1,14 +1,16 @@
 body{
     background:url('bg.jpg');
-    background-size: 100%;
+    background-size: 50%;
 }
 #clock{
     position: relative;
     height:30vw;
     width:30vw;
     margin: auto;
+    margin-top: 6%;
     background: url("clock.jpg");
     background-size: 100%;
+    border:7px solid rgb(25, 25, 56);
     
    
     
